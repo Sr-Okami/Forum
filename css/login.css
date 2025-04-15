@@ -20,3 +20,22 @@ body {
 label {
     font-weight: bolder;
 }
+#b-entrar{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.esqueceu{
+    cursor: pointer;
+}
+#imput-email{
+    margin-bottom: 5px;
+}
+#email {
+    
+}

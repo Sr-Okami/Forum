@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
 </head>
 <body>
     <form id="login-container">
         <h1>Login</h1>
-        <div>
+        <div id="imput-email">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email">
         </div>
-        <div>
+        <div id="imput-email">
             <label for="password">Senha:</label>
             <input type="password" name="Senha" id="password">
         </div>
+        <div>
+            <input class="esqueceu" type="checkbox" name="esqueceu" id="esqueceu">
+            <label class="esqueceu" for="esqueceu">Esqueceu a senha?</label>
+        </div>
         <br>
-        <button type="submit">Entrar</button>
+        <button id="b-entrar" type="submit">Entrar</button>
     </form>
+    <footer>
+    </footer>
 </body>
 </html>
