@@ -15,7 +15,7 @@ body {
     border-radius: 10px;
     width: 350px;
     box-shadow: 0px 9px 30px #000000;
-    text-align: center;
+    text-align: start;
 }
 label {
     font-weight: bolder;
@@ -27,15 +27,29 @@ label {
     width: 150px;
     padding: 10px;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
+    border-radius: 12px;
+    
 }
 .esqueceu{
     cursor: pointer;
 }
-#imput-email{
+#imput-email-senha{
     margin-bottom: 5px;
 }
 #email {
-    
+    background-color: #a4b6d8;
+    border: none; 
+    border-radius: 5px;
+    height: 20px;
+    width: 30vw;
 }
+#password {
+    background-color: #a4b6d8;
+    border: none; 
+    border-radius: 5px;
+    height: 20px;
+    width: 20vw;
+}    
+
